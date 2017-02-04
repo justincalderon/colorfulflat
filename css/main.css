@@ -29,26 +29,40 @@
   text-decoration: none;
 }*/
 
-.header {
-  background: url(../img/header-bg.jpg);
-  min-height: 650px;
+/*@font-face {
+    font-family: 'TrumpTownPro';
+    src: url(../fonts/'TrumpTownPro-webfont.eot');
+    src: url(../fonts/'TrumpTownPro-webfont.eot?#iefix') format('embedded-opentype'),
+         url(../fonts/'TrumpTownPro-webfont.woff') format('woff'),
+         url(../fonts/'TrumpTownPro-webfont.ttf') format('truetype'),
+         url(../fonts/'TrumpTownPro-webfont.svg#TrumpTownPro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TrumpTownPro';
+    src: url('../fonts/TrumpTownPro-webfont.eot');
+    src: url('../fonts/TrumpTownPro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TrumpTownPro-webfont.woff') format('woff'),
+         url('../fonts/TrumpTownPro-webfont.ttf') format('truetype'),
+         url('../fonts/TrumpTownPro-webfont.svg#TrumpTownPro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+@font-face {
+  font-family: TrumpTownPro;
+  src: url("fonts/TrumpTownPro.otf") format("opentype");
 }
 
 .wrap {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
-}
-
-.top-header {
-  padding: 3em 0;
 }
 
 .logo {
   float: left;
-}
-
-.logo a {
-  font-family: url(../fonts/TrumpTownPro.otf);
 }
 
 .logo span {
@@ -58,4 +72,94 @@
   background: url(../img/logo-icon.png); no-repeat 0px 0px;
   vertical-align: initial;
   margin-right: 7px;
+}
+
+.logo a {
+  font-family: 'TrumpTownPro', sans-serif;
+  color: #3A494C;
+  font-size: 3em;
+	text-transform: uppercase;
+}
+
+.top-header {
+  padding: 3em 0;
+}
+
+.header {
+  background: url(../img/header-bg.jpg);
+  min-height: 650px;
+}
+
+.top-nav{
+	float:right;
+}
+.top-nav ul li{
+	display: inline-block;
+	margin-left: 1em;
+}
+.top-nav ul li a{
+	font-size: 1.3em;
+	color: #3A494C;
+	padding: 0.4em 1em;
+	display: block;
+	border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	font-weight: 900;
+}
+.top-nav li.active> a, .top-nav li> a:hover {
+	color: #A5D3DB;
+	background:#3A494C;
+
+}
+.da-title h3{
+	width:50%;
+	letter-spacing: 0.03em;
+	top: 80px;
+    width: 20%;
+    white-space: nowrap;
+    z-index: 10;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    color: #FFF;
+    font-size: 4.5em;
+    font-family: 'trump_town_proregular';
+    text-transform: uppercase;
+}
+
+.top-service-grid{
+	float:left;
+	width:31.33%;
+	float:left;
+	margin-right:2%;
+	text-align:center;
+}
+.top-service-grid:nth-child(3){
+	margin-right:0;
+}
+.top-service-grid a{
+	display:block;
+}
+.top-service-grid a span{
+	font-size: 1.5em;
+	color: #323232;
+	font-family: trebuchet ms,'open_sansregular';
+	font-weight: 900;
+	margin:1em 0 0.6em 0;
+	display:block;
+}
+.top-service-grid p{
+	color:#5E5E5E;
+	line-height:1.5em;
+	width:90%;
+	margin:0 auto;
+}
+.top-service-grids {
+	padding: 7em 0;
+}
+
+/*---start-gallery-----*/
+.recent-works {
+	background: url(../img/portfolio-bg.jpg) no-repeat;
+	padding: 4em 0;
 }
