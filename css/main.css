@@ -1,0 +1,61 @@
+/** {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: url(../img/header-bg.jpg);
+  min-height: 650px;
+}
+
+.fa fa-heart {
+  display: inline-block;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.topnav {
+  display: inline-block;
+  float: right;
+}
+
+.topnav li {
+  display: inline-block;
+}
+
+.topnav a {
+  text-decoration: none;
+}*/
+
+.header {
+  background: url(../img/header-bg.jpg);
+  min-height: 650px;
+}
+
+.wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.top-header {
+  padding: 3em 0;
+}
+
+.logo {
+  float: left;
+}
+
+.logo a {
+  font-family: url(../fonts/TrumpTownPro.otf);
+}
+
+.logo span {
+  height: 36px;
+  width: 45px;
+  display: inline-block;
+  background: url(../img/logo-icon.png); no-repeat 0px 0px;
+  vertical-align: initial;
+  margin-right: 7px;
+}
